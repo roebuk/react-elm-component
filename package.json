@@ -1,0 +1,24 @@
+{
+  "name": "react-elm-component",
+  "version": "0.1.0",
+  "description": "Embed Elm apps within your React applications",
+  "main": "dist/rec.js",
+  "module": "dist/rec.esm.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublish": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=16.10.0"
+  },
+  "author": "Kristian Roebuck <k@roeb.uk>",
+  "license": "ISC",
+  "keywords": [
+    "react",
+    "elm"
+  ],
+  "devDependencies": {
+    "rollup": "^1.31.1",
+    "rollup-plugin-terser": "^5.2.0"
+  }
+}
