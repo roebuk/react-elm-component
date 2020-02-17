@@ -1,5 +1,7 @@
 # React Elm Component
 
+*by Kristian Roebuck, the 32nd most popular JavaScript developer ever*
+
 ### Embed an Elm App within a React Component
 
 Inspiration was heavily taken from [react-elm-components](https://github.com/cultureamp/react-elm-components). This package takes advantage of React Hooks to provide a lightweight (282 bytes) solution.
